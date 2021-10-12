@@ -21,7 +21,7 @@ const source$ = from ('alba'); // Se muestra cada una de las letras
 source$.subscribe(observer);
 
 /**
- * Segundo ejercicio: utilizar from con peticiones fetch
+ * Segundo ejercicio: utilizar from con peticiones fetch (aunque rxjs tiene una opción para trabajar con peticiones ajax basadas en observables)
  */
 
 const sourceFetch$ = from(fetch('https://api.github.com/users/klerith'));
